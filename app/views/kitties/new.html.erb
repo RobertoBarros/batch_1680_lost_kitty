@@ -1,0 +1,19 @@
+<div class="row justify-content-center">
+  <div class="col-6">
+
+    <h1>Add a new kitty found</h1>
+
+    <%= simple_form_for @kitty do |f|  %>
+      <%= f.input :description %>
+      <%= f.input :species, collection: Kitty::SPECIES %>
+      <%= f.input :address %>
+      <%= f.input :found_at %>
+
+      <div class="d-grid">
+        <%= f.submit 'Create Kitty', class: 'btn btn-primary'  %>
+      </div>
+    <% end %>
+
+
+  </div>
+</div>

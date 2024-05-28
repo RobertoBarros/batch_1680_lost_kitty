@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  address: MyString
+  species: MyString
+  description: MyText
+  found_at: 2024-05-28
+
+two:
+  address: MyString
+  species: MyString
+  description: MyText
+  found_at: 2024-05-28
